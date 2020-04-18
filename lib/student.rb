@@ -15,7 +15,8 @@ class Student
      id TEXT PRIMARY KEY,
      name TEXT,
      grade INTEGER
-     );
+     )
+     S
  end 
  
   # Remember, you can access your database connection anywhere in this class
