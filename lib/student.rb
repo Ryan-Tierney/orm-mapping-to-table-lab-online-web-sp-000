@@ -31,5 +31,8 @@ class Student
   end 
   
   def save 
+    sql = <<-SQL 
+     INSERT (name, grade) 
+     VALUES (?,?)
   end 
 end
